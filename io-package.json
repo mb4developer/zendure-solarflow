@@ -1,0 +1,74 @@
+{
+   "common":{
+      "name":"zendure-solarflow",
+      "version":"1.0.0",
+      "news":{
+         "1.0.0":{
+            "en":"ioBroker adapter for Zendure-Solarflow controllers",
+            "de":"ioBroker Adapter für Zendure-Solarflow Controller"
+         }
+      },
+      "title":"Zendure-Solarflow",
+      "titleLang":{
+         "en":"Zendure-Solarflow ioBroker adapter",
+         "de":"Zendure-Solarflow ioBroker Adapter"
+      },
+      "desc":{
+         "en":"Connects Zendure-Solarflow API (MQTT)",
+         "de":"Verbindet das Zendure-Solarflow über die API (MQTT)"
+      },
+      "authors":[
+         "Author <manuel.boss@mb4.org>"
+      ],
+      "keywords":[
+         "ioBroker",
+         "zendure-solarflow",
+         "zendure-solarflowXP",
+         "Media controller",
+         "Smart Home",
+         "home automation"
+      ],
+      "license":"MIT",
+      "platform":"Javascript/Node.js",
+      "main":"main.js",
+      "icon":"zendure-solarflow.png",
+      "enabled":true,
+      "extIcon":"https://raw.githubusercontent.com/zendure-solarflow/ioBroker.zendure-solarflow/master/admin/zendure-solarflow.png",
+      "readme":"https://github.com/zendure-solarflow/ioBroker.zendure-solarflow/blob/master/README.md",
+      "loglevel":"info",
+      "mode":"daemon",
+      "type":"general",
+      "compact":true,
+      "materialize":true,
+      "materializeTab":true,
+      "adminTab":{
+         "singleton":true,
+         "name":{
+            "en":"Zendure-solarflow",
+            "de":"Zendure-solarflow"
+         },
+         "link":"https://zendure.com/",
+         "fa-icon":"info"
+      },
+      "supportCustoms":true,
+      "dependencies":[
+         {
+            "js-controller":">=1.4.2"
+         }
+      ]
+   },
+   "native":{
+      "name":"Zendure",
+      "clientid":"",
+      "host":"mqtt.zen-iot.com",
+      "port":"1883",
+      "username":"",
+      "pwd":""
+   },
+   "objects":[
+
+   ],
+   "instanceObjects":[
+
+   ]
+}
