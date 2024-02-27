@@ -7,7 +7,7 @@
 
 ## Adapter configuration
 
-## 1.1.0
+## 1.0.0
 released for use with Zendure-SolarFlow Controller
 
 ##  Changelog
