@@ -1,9 +1,9 @@
 {
    "common":{
       "name":"zendure-solarflow",
-      "version":"1.0.0",
+      "version":"1.0.1",
       "news":{
-         "1.0.0":{
+         "1.0.1":{
             "en":"ioBroker adapter for Zendure-Solarflow controllers",
             "de":"ioBroker Adapter für Zendure-Solarflow Controller"
          }

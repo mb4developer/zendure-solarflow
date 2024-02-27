@@ -1,6 +1,6 @@
 {
    "name":"iobroker.zendure-solarflow",
-   "version":"1.0.0",
+   "version":"1.0.1",
    "description":"Zendure-Solarflow adapter for ioBroker",
    "author":{
       "name":"Boss Manuel",
